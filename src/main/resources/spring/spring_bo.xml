@@ -13,7 +13,7 @@
 	
 	<!-- 分页BO层注入paginableDao -->
 	
-	<bean id="smsOutBO" class="com.xnjr.sms.bo.impl.SmsOutBOImpl">
+	<bean id="smsOutBO" class="com.xnjr.home.bo.impl.SmsOutBOImpl">
 		<property name="paginableDAO" ref="smsOutDAOImpl" />
 	</bean>
 </beans>
